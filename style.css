@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#calculator {
+    /* border: 2px solid blue; */
+    user-select: none;
+}
+
+#calculator table {
+    background-color: antiquewhite;
+}
+
+input {
+    font-size: 6vh;
+    width: 70vw;
+    height: 20vh;
+    background-color: aliceblue;
+    user-select: text;
+}
+
+#clr {
+    line-height: 20vh;
+    font-size: 10vh;
+    width: 20vw;
+    height: 20vh;
+    background-color: orange;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn {
+    line-height: 20vh;
+    font-size: 10vh;
+    height: 20vh;
+    width: 23vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.oprator {
+    line-height: 20vh;
+    font-size: 10vh;
+    height: 20vh;
+    width: 20vw;
+    color: black;
+    background-color: orange;
+    text-align: center;
+}
+
+
+/* Hover and Touch effects */
+
+
+.btn:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+.btn:active{
+    color: orange;
+}
+
+.oprator:hover{
+    background-color: rgb(230, 150, 2);
+}
+
+.oprator:active{
+    background-color:orangered;
+}
+
+#clr:hover{
+    background-color: rgb(230, 150, 2);
+}
+
+#clr:active{
+    background-color:orangered;
+
+}
